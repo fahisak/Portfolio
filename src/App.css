@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Poppins;
 }
 
 .App-logo {
@@ -14,20 +15,187 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* justify-content: center; */
+  font-size: 16px;
+  color: white
 }
-
+.fullname{
+  min-height: 100vh;
+  color :white;
+  margin-bottom: 20px;
+}
+.font-bold{
+  font-weight: bold;
+}
+.font-40{
+  font-size: 40px;
+  font-weight: bold;
+}
+.name{
+  font-size: 40px;
+  margin-top: 80px;
+}
+.role{
+  font-size:18px
+}
 .App-link {
   color: #61dafb;
 }
+.navbar-tabs{
+  margin-right: 23px;
+  cursor: pointer;
+  text-decoration: none;
+    /* --bs-link-hover-color: #ffc107; */
+    color: white;
+    font-weight: bold;
+}
+.navbar-tabs:hover {
+  color: rgb(255 193 7);
+ }
 
+.left-section{
+background-color: rgb(56, 53, 53);
+
+}
+.right-section{
+  background-color: rgb(31, 29, 29);
+}
+.top-section{
+ 
+  margin-top: 10px;
+  position: fixed;
+  padding: 10px;
+  margin-bottom: 40px;
+
+}
+.bg-black{
+  background-color: black;
+}
+.txt-right{
+  text-align-last: right;
+}
+.tab{
+  border-radius: 10px;
+    background: #4b4848;
+    cursor: pointer;
+    font-size: 19px;
+    padding: 7px;
+    margin-top: 10px;
+}
+.tab:hover {
+  background-color: rgb(255 193 7);
+ }
+ .font-yellow{
+  color:rgb(255 193 7);
+ }
+ .font-22{
+  font-size: 22px;
+ }
+ .font-20{
+  font-size: 22px;
+ }
+ .f-bold{
+  font-weight: bold;
+ }
+ .mr-7{
+  margin-right: 7px;
+ }
+ .justified{
+  text-align: justify;
+ }
+ .mt-40{
+  margin-top: 40px;
+ }
+ .mb-40{
+  margin-bottom: 40px;
+ }
+ .home-section{
+  padding: 40px;
+  margin-top: 10px;
+ }
+ .font-16{
+  font-size: 16px;
+ }
+ .contact-me{
+  border-radius: 10px;
+  background: #ffc107;
+  color: #fff;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 150px;
+    margin-left: 10px;
+    cursor: pointer;
+ }
+ .download-cv{
+  font-size: 16px;
+  font-weight: bold;
+  border: #ffc107;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 5px;
+  width: 150px;
+    margin-left: 10px;
+    cursor: pointer;
+ }
+ .tech-icons{
+  height: 50px;
+    width: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+ }
+ .hidileexp{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+  flex: auto;
+    
+ }
+ .hidile-icon{
+  height: 100px;
+  width: 100px;
+  margin-right: 6px;
+  object-fit: contain;
+ 
+ }
+ .ml-10{
+  margin-left: 10px;
+ }
+ .mt-20{
+  margin-top: 20px;
+ }
+ .languages{
+  border-radius: 10px;
+    border:1px solid;
+    border-color: #ffc107;
+    padding: -1px;
+    margin-right: 10px;
+    width: 100px;
+ }
+ .project-picture{
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out 0s;
+
+ 
+ }
+ .progress-bar {
+  width: 0;
+  height: 5px;
+  background-color:#ffc107 !important;
+  position: fixed; 
+  top: 0; /* Adjust as needed */
+  left: 0; /* This will make the progress bar start from the left side of the page */
+ }
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +204,261 @@
     transform: rotate(360deg);
   }
 }
+/* html::-webkit-scrollbar-track{
+  background-color: #ffc107 !important
+}
+html::-webkit-scrollbar-thumb{
+  background-color: #ffc107;
+} */
+@media (max-width:896px) {
+  .d-flex {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .hidileexp{
+    font-size: 16px;
+    margin-right: 50px;
+    order: 1;
+  }
+  .about{
+    margin-top: 10px;
+  }
+  .outerdiv{
+    margin-bottom: 20px;
+  }
+  .date-hidile {
+      order: 1;
+      /* margin-bottom: 17px; */
+    margin-left: 1px;
+    font-weight: bold;
+ 
+  }
+  .hidile-icon{
+    height: 50px;
+    width: 50px;
+  
+   
+   }
+  .languages{
+    margin-bottom: 15px;
+  }
+ 
+}
+@media (max-width:438px) {
+  .download-cv {
+    margin-top: 10px;
+  }}
+  @media (max-width:840px) {
+    .font-40 {
+   font-size: 27px;
+    }
+    .role{
+      font-size: 14px;
+    }
+  }
+@media (max-width:630px) {
+  .date-edu {
+ 
+  order: 1;
+  /* margin-bottom: 0px; */
+margin-left: 1px;
+font-weight: bold;
+ 
+}
+}
+  .right-icon {
+
+display: flex;
+justify-content: start;
+align-items: center;
+flex-wrap: wrap;
+flex-flow: column;
+
+
+}
+@media only screen and (max-width: 542px) {
+  .right-icon {
+    order: 1;
+    flex-wrap: wrap;
+    flex-flow: row;
+  }
+  .home-email-icon{
+    height: 25px !important;
+    width: 18px !important;
+    margin-top: 14px;
+  }
+  .fullname{
+    margin-top: 55px;
+  }
+ }
+@media only screen and (min-width: 0px) and (max-width: 550px) {
+  .date-edu {
+    order:1;
+    margin-bottom: 17px;
+   
+  }
+  /* Styles go here */
+ }
+ .contact-me{
+
+    text-decoration: none;
+    color: white;
+
+ }
+ .contact{
+  text-decoration: none;
+  color: white;
+  margin-right: 15px;
+ }
+ .linkedin-icon{
+  filter: invert(40%);
+    height: 24px;
+    width: 30px;
+    margin-top: 2px;
+    object-fit: cover;
+}
+ .email-icon{
+  filter: invert(40%);
+    height: 30px;
+    width: 29px;
+    object-fit: cover;
+
+}
+.github-icon{
+  filter: invert(40%);
+    height: 25px;
+    width: 30px;
+    margin-top: 2px;
+    object-fit: cover;
+}
+.copyright{
+  color: #b9b9b7;
+    font-size: 12px;
+}
+
+.home-email-icon{
+  filter: invert(40%);
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+
+
+}
+.home-github-icon{
+  filter: invert(40%);
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    object-fit: cover;
+}
+
+.home-drive-icon{
+  filter: invert(40%);
+    height: 25px;
+    width: 25px;
+    margin-top: 15px;
+    object-fit: cover;
+}
+
+
+.home-linkedin-icon{
+  filter: invert(40%);
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    object-fit: cover;
+}
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 2px;
+  text-align: left;
+ }
+ .home-menu-icon{
+  filter: invert(40%);
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 12px;
+
+
+}
+
+ @media only screen and (min-width: 801px) {
+  .home-menu-icon,ul {
+   display: none;
+  }
+  .navbaritems{
+   display: flex !important;
+  }
+ }
+ 
+ @media only screen and (max-width: 800px) {
+  .home-menu-icon,ul {
+   display: block;
+  }
+  .navbaritems{
+   display: none !important;
+  }
+ }
+ @media only screen and (max-width: 860px) {
+  .techlanguage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+  .techlanguage > div {
+  flex: 0 0 calc(25% - 10px); /* 10px for margins */
+  margin: 5px;
+  }
+ }
+ .outerdiv{
+  background-color: rgb(47 45 45);
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  width: 95%;
+  display:flex ;
+  justify-content:space-between;
+   flex-flow :column ;
+   align-items:center;
+   cursor: pointer;
+ }
+ .font-white{
+  color: white;
+ }
+
+
+ .flexi-hedding {
+  color: #9b9798;
+  margin-top: 15px;
+ }
+ 
+ .projectimg {
+  background-color: white;
+  height: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+ }
+ 
+ @media screen and (max-width: 600px) {
+  .outerdiv {
+    width: 100%;
+  }
+ }
+ .resumeheader{
+  margin-top: 100px;
+    text-align: justify;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ .resumeicons{
+  height: 15px;
+  width: 15px;
+ }

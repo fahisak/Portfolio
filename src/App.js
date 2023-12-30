@@ -1,11 +1,14 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Profile from './Profile';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Resume from './Resume';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="App " >
+      <header >
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,8 +19,18 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
+      <body>
+       
+      <Router>
+    <Routes>
+      {/* <Route path="/" element={<HomePage />} /> */}
+      <Route path="/" element={<Profile />} />
+      <Route path="/resume" element={<Resume />} />
+    </Routes>
+  </Router>
+      </body>
     </div>
   );
 }
