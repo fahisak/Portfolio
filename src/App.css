@@ -267,9 +267,8 @@ font-weight: bold;
 }
 }
   .right-icon {
-
 display: flex;
-justify-content: start;
+/* justify-content: start; */
 align-items: center;
 flex-wrap: wrap;
 flex-flow: column;

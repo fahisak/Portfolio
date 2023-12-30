@@ -1,9 +1,8 @@
 
 import React, { useState } from 'react';
-import {  Link } from 'react-router-dom';
 
-export default function
-    () {
+
+function Profile() {
     const [showTabs, setShowTabs] = useState(false);
 
     window.addEventListener('scroll', function () {
@@ -13,9 +12,6 @@ export default function
         var progress = (scrollPosition / (bodyHeight - windowHeight)) * 100;
         document.getElementById('progress-bar').style.width = progress + '%';
     });
-
-
-
     return (
         <div className='App-header container-fluid' >
 
@@ -32,7 +28,7 @@ export default function
                     <a href="#education-section" className=' navbaritems navbar-tabs'>Education</a>
                 </div>
                 <div className=' txt-right'>
-                    <img className='home-menu-icon' src="/images/menu.png" onClick={() => setShowTabs(!showTabs)}></img>
+                    <img alt='' className='home-menu-icon' src="/images/menu.png" onClick={() => setShowTabs(!showTabs)}></img>
 
                 </div>
                 {showTabs && (
@@ -76,20 +72,20 @@ export default function
                     <div className='col-md-1 right-icon ' >
                         <div >  <a href="mailto:fahisak786@gmail.com"
                             className=" contact inline-block text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-                            <img className='home-email-icon' src="/images/email1.png"></img></a>
+                            <img alt='' className='home-email-icon' src="/images/email1.png"></img></a>
                         </div>
 
                         <div > <a href="https://www.linkedin.com/in/fahisa-kollath"
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
-                            <img className='home-linkedin-icon' src="/images/linkedin.png"></img></a>
+                            <img alt='' className='home-linkedin-icon' src="/images/linkedin.png"></img></a>
                         </div>
                         <div > <a href="https://github.com/fahisak"
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
-                            <img className='home-github-icon' src="/images/github.png"></img></a>
+                            <img alt='' className='home-github-icon' src="/images/github.png"></img></a>
                         </div>
                         <div > <a href="https://drive.google.com/file/d/1ooJ1M-QqsxbmY3wyYBjad8DPgeM1KKwo/view?usp=drive_link"
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
-                            <img className='home-drive-icon' src="/images/drive.png"></img></a>
+                            <img alt='' className='home-drive-icon' src="/images/drive.png"></img></a>
                         </div>
 
 
@@ -121,15 +117,15 @@ export default function
                     </div>
 
                     <div className=' techlanguage d-flex justify-content-between flex-wrap col-md-12 ' >
-                        <div ><img className='tech-icons' src="/images/css-3.png"></img></div>
-                        <div ><img className='tech-icons' src="/images/bootstrap.png"></img></div>
-                        <div><img className='tech-icons' src="/images/html-5.png"></img></div>
-                        <div><img className='tech-icons' src="/images/python.png"></img></div>
-                        <div><img className='tech-icons' src="/images/js.png"></img></div>
-                        <div><img className='tech-icons' src="/images/atom.png"></img></div>
-                        <div><img className='tech-icons' src="/images/nodejs.png"></img></div>
-                        <div><img className='tech-icons' src="/images/postgre.png"></img></div>
-                        <div><img className='tech-icons' src="/images/gitlab.png"></img></div>
+                        <div ><img alt='' className='tech-icons' src="/images/css-3.png"></img></div>
+                        <div ><img alt='' className='tech-icons' src="/images/bootstrap.png"></img></div>
+                        <div><img alt='' className='tech-icons' src="/images/html-5.png"></img></div>
+                        <div><img alt='' className='tech-icons' src="/images/python.png"></img></div>
+                        <div><img alt='' className='tech-icons' src="/images/js.png"></img></div>
+                        <div><img alt='' className='tech-icons' src="/images/atom.png"></img></div>
+                        <div><img alt='' className='tech-icons' src="/images/nodejs.png"></img></div>
+                        <div><img alt='' className='tech-icons' src="/images/postgre.png"></img></div>
+                        <div><img alt='' className='tech-icons' src="/images/gitlab.png"></img></div>
                     </div>
                 </div>
 
@@ -140,7 +136,7 @@ export default function
                         <div className='font-yellow'>EXPERIENCE</div>
                     </div>
                     <div className='d-flex align-items-center justify-content-between'>
-                        <img className='hidile-icon' src="/images/hidiler.png"></img>
+                        <img alt='' className='hidile-icon' src="/images/hidiler.png"></img>
                         <div className='hidileexp'>
 
                             Software Engineer at Hidile LLP
@@ -171,7 +167,7 @@ export default function
                     </div>
 
                     <div className='d-flex align-items-center justify-content-between'>
-                        <img className='hidile-icon' src="/images/futura.png"></img>
+                        <img alt='' className='hidile-icon' src="/images/futura.png"></img>
                         <div className='hidileexp'>
 
                             MERN STACK Intern at Futura Labs LLP
@@ -214,7 +210,7 @@ export default function
                         <div className='col-md-5 outerdiv '>
                             <div className='projectimg'>
                                 <a href='https://flexirecs.com/' className='text-decoration-none'>
-                                    <img className='project-picture' src="/images/perm.jpeg"></img>
+                                    <img alt='' className='project-picture' src="/images/perm.jpeg"></img>
                                 </a>
                             </div>
 
@@ -229,7 +225,7 @@ export default function
                         <div className='col-md-5 outerdiv'>
                             <div className='projectimg'>
                                 <a href='https://app.flexirecs.com/' className='text-decoration-none'>
-                                    <img className='project-picture' src="/images/temp.jpeg"></img>
+                                    <img alt='' className='project-picture' src="/images/temp.jpeg"></img>
                                 </a>
                             </div>
 
@@ -252,7 +248,7 @@ export default function
                         <div className='font-yellow'>Education</div>
                     </div>
                     <div className='d-flex align-items-center justify-content-between'>
-                        <img className='hidile-icon' src="/images/university-icon.png"></img>
+                        <img alt='' className='hidile-icon' src="/images/university-icon.png"></img>
 
                         <div className='hidileexp'>
                             Master's of  Computer Science
@@ -273,7 +269,7 @@ export default function
                     </div>
 
                     <div className='d-flex align-items-center justify-content-between'>
-                        <img className='hidile-icon' src="/images/university-icon.png"></img>
+                        <img alt='' className='hidile-icon' src="/images/university-icon.png"></img>
 
                         <div className='hidileexp'>
                             Bachelor of Computer Applications
@@ -304,16 +300,16 @@ export default function
                     <div className='d-flex justify-content-center align-tems-center flex-wrap col-md-12 ' >
                         <div >  <a href="mailto:fahisak786@gmail.com"
                             className=" contact inline-block text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-                            <img className='email-icon' src="/images/email1.png"></img></a>
+                            <img alt='' className='email-icon' src="/images/email1.png"></img></a>
                         </div>
 
                         <div > <a href="https://www.linkedin.com/in/fahisa-kollath"
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
-                            <img className='linkedin-icon' src="/images/linkedin.png"></img></a>
+                            <img alt='' className='linkedin-icon' src="/images/linkedin.png"></img></a>
                         </div>
                         <div > <a href="https://github.com/fahisak"
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
-                            <img className='github-icon' src="/images/github.png"></img></a>
+                            <img alt='' className='github-icon' src="/images/github.png"></img></a>
                         </div>
 
 
@@ -334,3 +330,5 @@ export default function
         </div>
     )
 }
+
+export default Profile

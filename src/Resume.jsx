@@ -13,17 +13,17 @@ export default function Resume() {
             <div id="progress-bar" className="progress-bar"></div>
             <div className='d-flex justify-content-center align-items-center flex-column'>
                 <div className='font-22 font-bold'> FAHISA K</div>
-                <div><img className='resumeicons' src="/images/phone-call.png"></img> +3530894370914
-                    <img className='resumeicons ml-10 mr-7' src="/images/location.png"></img>
+                <div><img alt='' className='resumeicons' src="/images/phone-call.png"></img> +3530894370914
+                    <img alt='' className='resumeicons ml-10 mr-7' src="/images/location.png"></img>
                     91 Kilbelin Abbey, Newbridge, Kildare, Ireland</div>
-                <div>  <img className='resumeicons' src="/images/email1.png"></img>
+                <div>  <img alt='' className='resumeicons' src="/images/email1.png"></img>
                     <a className='text-decoration-none ml-10' href="mailto:fahisak786@gmail.com"> fahisak786@gmail.com</a>
 
-                    <img className='resumeicons ml-10' src="/images/linkedin.png"></img>
+                    <img alt='' className='resumeicons ml-10' src="/images/linkedin.png"></img>
                     <a className='text-decoration-none ml-10' href="https://www.linkedin.com/in/fahisa-kollath">https://www.linkedin.com/in/fahisa-kollath </a>
 
                 </div>
-                <div>  <img className='resumeicons' src="/images/github.png"></img>
+                <div>  <img alt='' className='resumeicons' src="/images/github.png"></img>
                     <a className='text-decoration-none ml-10' href="https://github.com/fahisak">https://github.com/fahisak</a>
                 </div>
             </div>
@@ -117,3 +117,5 @@ export default function Resume() {
         </div>
     )
 }
+
+
