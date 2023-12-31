@@ -5,6 +5,9 @@ import React, { useState } from 'react';
 function Profile() {
     const [showTabs, setShowTabs] = useState(false);
 
+
+
+    
     window.addEventListener('scroll', function () {
         var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
         var windowHeight = window.innerHeight;
@@ -57,10 +60,10 @@ function Profile() {
                         {/* <div className='font-22 mt-40'>Hi There! Hello You!.</div> */}
                         {/* <div className='d-flex justify-content-center  f-bold font-22'>  */}
                         {/* <div className='mr-7'>I'm</div>  */}
-                        <div className='font-yellow font-40'>FAHISA KOLLATH</div>
+                        <div className='font-yellow font-40 '>FAHISA KOLLATH</div>
 
                         {/* </div> */}
-                        <div className='font-22 font-bold role'>SOFTWARE ENGINEER, FRONT END && BACK END</div>
+                        <div className='font-22 font-bold role animate-charcter'>SOFTWARE ENGINEER, FRONT END && BACK END</div>
                         <div className='d-flex justify-content-center  home-section'>
                             <div className='contact-me' ><a href="#contact-me" className='contact-me'> CONTACT ME</a></div>
                              <div className='download-cv'><a className='text-decoration-none font-white' href='https://drive.google.com/file/d/1ooJ1M-QqsxbmY3wyYBjad8DPgeM1KKwo/view?usp=drive_link'>DOWNLOAD CV</a></div>
@@ -69,7 +72,7 @@ function Profile() {
                         </div>
                     </div>
 
-                    <div className='col-md-1 right-icon ' >
+                    <div className='col-md-1 right-icon  ' >
                         <div >  <a href="mailto:fahisak786@gmail.com"
                             className=" contact inline-block text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
                             <img alt='' className='home-email-icon' src="/images/email1.png"></img></a>
@@ -101,7 +104,7 @@ function Profile() {
 
                     {/* <div className='font-22 mt-40'>Hi There!</div>
                     <div className='d-flex justify-content-center  f-bold font-22'> <div className='mr-7'>I'm</div> <div className='font-yellow'> Fahisa Kollath</div></div> */}
-                    <div><p className='justified font-16'>
+                    <div ><p className='justified font-16 '>
                         I am a skilled software developer with 2 years of experience in developing robust and scalable web applications. I have a strong background in both frontend and backend development, having worked on projects of varying complexity. Notably, I have leveraged technologies and frameworks such as React and Node.js to deliver high-performance, optimized web applications. In addition, I have experience integrating with databases such as MySQL, MongoDB, and PostgreSQL, where I have contributed to the development of efficient database structures that drive enhanced functionality.
                     </p></div>
                 </div>
@@ -205,7 +208,7 @@ function Profile() {
                         <div className='font-yellow'>PROJECTS</div>
                     </div>
 
-                    <div className='d-flex justify-content-between col-md-12 flex-wrap'>
+                    <div className='d-flex justify-content-center col-md-12 flex-wrap'>
 
                         <div className='col-md-5 outerdiv '>
                             <div className='projectimg'>
@@ -310,6 +313,10 @@ function Profile() {
                         <div > <a href="https://github.com/fahisak"
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
                             <img alt='' className='github-icon' src="/images/github.png"></img></a>
+                        </div>
+                        <div > <a href="https://github.com/fahisak"
+                            className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
+                            <img alt='' className='github-icon' src="/images/drive.png"></img></a>
                         </div>
 
 
