@@ -1,10 +1,15 @@
 
 import React, { useState } from 'react';
-
+// import { gsap } from 'gsap';
+// import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 function Profile() {
     const [showTabs, setShowTabs] = useState(false);
 
+    // gsap.registerPlugin(ScrollTrigger);
+
+
+   
 
 
     
@@ -15,6 +20,10 @@ function Profile() {
         var progress = (scrollPosition / (bodyHeight - windowHeight)) * 100;
         document.getElementById('progress-bar').style.width = progress + '%';
     });
+
+   
+   
+       
     return (
         <div className='App-header container-fluid' >
 
@@ -63,7 +72,7 @@ function Profile() {
                         <div className='font-yellow font-40 '>FAHISA KOLLATH</div>
 
                         {/* </div> */}
-                        <div className='font-22 font-bold role animate-charcter'>SOFTWARE ENGINEER, FRONT END && BACK END</div>
+                        <div className='font-22 font-bold role animate-charcter'>SOFTWARE ENGINEER, FRONT END & BACK END</div>
                         <div className='d-flex justify-content-center  home-section'>
                             <div className='contact-me' ><a href="#contact-me" className='contact-me'> CONTACT ME</a></div>
                              <div className='download-cv'><a className='text-decoration-none font-white' href='https://drive.google.com/file/d/1ooJ1M-QqsxbmY3wyYBjad8DPgeM1KKwo/view?usp=drive_link'>DOWNLOAD CV</a></div>
@@ -86,7 +95,7 @@ function Profile() {
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
                             <img alt='' className='home-github-icon' src="/images/github.png"></img></a>
                         </div>
-                        <div > <a href="https://drive.google.com/file/d/1ooJ1M-QqsxbmY3wyYBjad8DPgeM1KKwo/view?usp=drive_link"
+                        <div > <a href="https://drive.google.com/file/d/1gXI65t6G0ndJEAGFZdu7slYJzyidMWXC/view?usp=sharing"
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
                             <img alt='' className='home-drive-icon' src="/images/drive.png"></img></a>
                         </div>
@@ -102,9 +111,10 @@ function Profile() {
                         <div className='font-yellow'>ME</div>
                     </div>
 
+
                     {/* <div className='font-22 mt-40'>Hi There!</div>
                     <div className='d-flex justify-content-center  f-bold font-22'> <div className='mr-7'>I'm</div> <div className='font-yellow'> Fahisa Kollath</div></div> */}
-                    <div ><p className='justified font-16 '>
+                    <div className='divb' ><p className='justified font-16 '>
                         I am a skilled software developer with 2 years of experience in developing robust and scalable web applications. I have a strong background in both frontend and backend development, having worked on projects of varying complexity. Notably, I have leveraged technologies and frameworks such as React and Node.js to deliver high-performance, optimized web applications. In addition, I have experience integrating with databases such as MySQL, MongoDB, and PostgreSQL, where I have contributed to the development of efficient database structures that drive enhanced functionality.
                     </p></div>
                 </div>
@@ -314,7 +324,7 @@ function Profile() {
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
                             <img alt='' className='github-icon' src="/images/github.png"></img></a>
                         </div>
-                        <div > <a href="https://github.com/fahisak"
+                        <div > <a href="https://drive.google.com/file/d/1gXI65t6G0ndJEAGFZdu7slYJzyidMWXC/view?usp=sharing"
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
                             <img alt='' className='github-icon' src="/images/drive.png"></img></a>
                         </div>
@@ -333,8 +343,10 @@ function Profile() {
             </div>
 
             {/* </div> */}
+            
 
         </div>
+        
     )
 }
 
