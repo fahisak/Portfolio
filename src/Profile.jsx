@@ -1,18 +1,10 @@
 
 import React, { useState } from 'react';
-// import { gsap } from 'gsap';
-// import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 
 function Profile() {
     const [showTabs, setShowTabs] = useState(false);
-
-    // gsap.registerPlugin(ScrollTrigger);
-
-
-   
-
-
-    
+ 
     window.addEventListener('scroll', function () {
         var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
         var windowHeight = window.innerHeight;
@@ -21,9 +13,7 @@ function Profile() {
         document.getElementById('progress-bar').style.width = progress + '%';
     });
 
-   
-   
-       
+
     return (
         <div className='App-header container-fluid' >
 
@@ -75,7 +65,7 @@ function Profile() {
                         <div className='font-22 font-bold role animate-charcter'>SOFTWARE ENGINEER, FRONT END & BACK END</div>
                         <div className='d-flex justify-content-center  home-section'>
                             <div className='contact-me' ><a href="#contact-me" className='contact-me'> CONTACT ME</a></div>
-                             <div className='download-cv'><a className='text-decoration-none font-white' href='https://drive.google.com/file/d/1ooJ1M-QqsxbmY3wyYBjad8DPgeM1KKwo/view?usp=drive_link'>DOWNLOAD CV</a></div>
+                             <div className='download-cv'><a className='text-decoration-none font-white' href='https://drive.google.com/file/d/1e29tlyF0teOtwUH3u1mgIfJ00TJqHGze/view?usp=drive_link'>DOWNLOAD CV</a></div>
                          {/* <Link className='download-cv text-decoration-none font-white' to={'/resume'}>DOWNLOAD CV</Link> */}
                            
                         </div>
@@ -95,7 +85,7 @@ function Profile() {
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
                             <img alt='' className='home-github-icon' src="/images/github.png"></img></a>
                         </div>
-                        <div > <a href="https://drive.google.com/file/d/1gXI65t6G0ndJEAGFZdu7slYJzyidMWXC/view?usp=sharing"
+                        <div > <a href="https://drive.google.com/file/d/1e29tlyF0teOtwUH3u1mgIfJ00TJqHGze/view?usp=drive_link"
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
                             <img alt='' className='home-drive-icon' src="/images/drive.png"></img></a>
                         </div>
@@ -324,7 +314,7 @@ function Profile() {
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
                             <img alt='' className='github-icon' src="/images/github.png"></img></a>
                         </div>
-                        <div > <a href="https://drive.google.com/file/d/1gXI65t6G0ndJEAGFZdu7slYJzyidMWXC/view?usp=sharing"
+                        <div > <a href="https://drive.google.com/file/d/1e29tlyF0teOtwUH3u1mgIfJ00TJqHGze/view?usp=drive_link"
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
                             <img alt='' className='github-icon' src="/images/drive.png"></img></a>
                         </div>
