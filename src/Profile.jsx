@@ -65,7 +65,7 @@ function Profile() {
                         <div className='font-22 font-bold role animate-charcter'>SOFTWARE ENGINEER, FRONT END & BACK END</div>
                         <div className='d-flex justify-content-center  home-section'>
                             <div className='contact-me' ><a href="#contact-me" className='contact-me'> CONTACT ME</a></div>
-                             <div className='download-cv'><a className='text-decoration-none font-white' href='https://drive.google.com/file/d/1e29tlyF0teOtwUH3u1mgIfJ00TJqHGze/view?usp=drive_link'>DOWNLOAD CV</a></div>
+                             <div className='download-cv'><a className='text-decoration-none font-white' href='https://drive.google.com/file/d/1347IVcmPCMKVr_z067cEsH0khJojSawV/view?usp=drive_link'>DOWNLOAD CV</a></div>
                          {/* <Link className='download-cv text-decoration-none font-white' to={'/resume'}>DOWNLOAD CV</Link> */}
                            
                         </div>
@@ -85,7 +85,7 @@ function Profile() {
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
                             <img alt='' className='home-github-icon' src="/images/github.png"></img></a>
                         </div>
-                        <div > <a href="https://drive.google.com/file/d/1e29tlyF0teOtwUH3u1mgIfJ00TJqHGze/view?usp=drive_link"
+                        <div > <a href="https://drive.google.com/file/d/1347IVcmPCMKVr_z067cEsH0khJojSawV/view?usp=drive_link"
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
                             <img alt='' className='home-drive-icon' src="/images/drive.png"></img></a>
                         </div>
@@ -314,7 +314,7 @@ function Profile() {
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
                             <img alt='' className='github-icon' src="/images/github.png"></img></a>
                         </div>
-                        <div > <a href="https://drive.google.com/file/d/1e29tlyF0teOtwUH3u1mgIfJ00TJqHGze/view?usp=drive_link"
+                        <div > <a href="https://drive.google.com/file/d/1347IVcmPCMKVr_z067cEsH0khJojSawV/view?usp=drive_link"
                             className=" contact inline-block text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg ml-4">
                             <img alt='' className='github-icon' src="/images/drive.png"></img></a>
                         </div>
